@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import "menu.css";
+@import "general.css";
+@import "footer.css";
+
+body{
+    background: #150035;
+}
+section{
+    background: #e5e7eb;
+}
+.contenedor{
+    padding: 32px 20px 20px 20px;
+}
+.sobremi__titulo-circulo{
+    width: 30px;
+    height: 30px;
+    background: #ffb000;
+    border-radius: 50%;
+    display: block;
+}
+.sobremi__titulo-titulo{
+    font-size: 55px;
+    color: #150035;
+}
+
+.sobremi__cv-boton{
+    text-align: center;
+    padding: 10px;
+    background: #ffb000;
+    width: 200px;
+    margin: 0 auto;
+    border-radius: 20px;
+    font-weight: 600;
+}
+
+.mifoto{
+    width: 300px;
+    margin: 0 auto;
+}
+.mifoto__foto{
+    width: 100%;
+    display: block;
+    
+}
+
+.segunda__seccion{
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+}
+/*
+====================
+====================HABILIDADES=======================
+*/
+.habilidades__titulo{
+    padding: 6px 20px 20px 20px;
+}
+.habilidades__titulo-sombra{
+    color: rgba(0, 0, 0, 0.39);
+    font-size: 39px;
+
+}
+.habilidades__titulo-titulo{
+    font-size: 45px;
+    margin: -45px 0 0 13px;
+}
+
+.iconos{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.iconos__caja{
+    text-align: center;
+}
+.iconos__caja > i{
+    font-size: 116px;
+    padding: 25px;
+    color: #000000ce;
+
+}
+/*
+=========================
+=========================CERTIFICADOS
+=========================
+*/
+.certificados__titulo-sombra{
+    color: rgba(0, 0, 0, 0.39);
+    font-size: 39px;
+}
+.certificados__titulo-titulo{
+    font-size: 45px;
+    margin: -45px 0 0 13px;
+}
+
+.certificados_contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.certificados__curso{
+    max-width: 530px;
+    min-width: 200px;
+    margin: 15px auto;
+    background: white;
+    border-radius: 23px ;
+}
+.certificados__curso-foto{
+    padding-top: 25px;
+}
+.imgcerti{
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    object-fit: cover;
+}
+.certificados__general{
+    padding: 20px 21px;
+}
+.certificados__especialidad{
+    display: flex;
+    justify-content: space-between;
+}
+.certificados__especialidad-luminoso{
+    color: #ffb000;
+    background: #ffae0054;
+    font-size: 12px;
+    padding: 2px 14px;
+    border-radius: 10px;
+}
+.certificados__general-nombre{
+    font-size: 20px;
+    font-weight: 500;
+}
+.certificacion__iconos{
+    display: flex;
+    justify-content: space-between;
+
+}
+.certificacion__iconos > div > i{
+    color: rgba(252, 2, 2, 0.692);
+}
+.certificacion__iconos-info{
+    color: #616161;
+    font-size: 14px;
+}
+.span-linkedin{
+    color: white;
+    background: rgb(0, 110, 255);
+    padding: 0 3px;
+    border-radius: 3px;
+}
+.certificacion__descargar{
+    
+}
+.certificacion__descargar-cv{
+    margin-top: 25px;
+    padding: 10px;
+    background: #111827;
+    color: white;
+    text-align: center;
+    width: 250px;
+    margin: 25px auto 10px auto;
+    border-radius: 25px;
+}
+.sobremi__caja{
+    padding: 32px 20px 57px 20px
+}
+
+@media (min-width: 652px) {
+    .sobremi__titulo-titulo{
+        font-size: 66px;
+    }
+    .habilidades__titulo{
+        padding: 6px 40px 20px 40px;
+    }
+    .certificados__curso{
+        min-width: 217px;
+        width: 48%;
+        max-width: 500px;
+    }
+    .sobremi__caja{
+        display: flex;
+        justify-content: space-between;
+        padding: 68px 40px 20px 40px;
+    }
+    .mifoto {
+        max-width: 380px;
+        margin: 50px 0 0 0;
+    }
+    .sobremi__parrafo{
+        width: 377px;
+    }
+    .contenedor{
+        padding: 25px 40px 20px 40px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .contenedor{
+        padding: 25px 75px 20px 75px;
+    }
+    .sobremi__caja{
+        padding: 100px 75px 20px 75px;
+    }
+    .habilidades__titulo{
+        padding: 6px 75px 20px 75px;
+    }
+    .sobremi__titulo-titulo{
+        font-size: 77px;
+    }
+    .habilidades__titulo-sombra{
+        font-size: 60px;
+    }
+    .habilidades__titulo-titulo{
+        font-size: 60px;
+        margin: -73px 0 0 13px;
+    }
+    .mifoto{
+        margin: 66px 0 0 0;
+    }
+    .habilidades{
+        padding-top: 60px;
+    }
+    .sobremi__parrafo{
+        width: 700px;
+    }
+    .sobremi__parrafo > p{
+        font-size: 20px;
+    }
+    .certificados__titulo-sombra{
+        font-size: 60px;
+    }
+    .certificados__titulo-titulo{
+        font-size: 60px;
+        margin: -73px 0 0 13px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+

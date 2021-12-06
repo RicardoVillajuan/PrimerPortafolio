@@ -1,0 +1,411 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import "menu.css";
+@import "general.css";
+@import "footer.css";
+
+
+body{
+    background: #150035;
+}
+.color-secundario{
+    color: #150035;
+}
+.fondo-secundario{
+    background: #150035;
+}
+.principal{
+    background: #ffb000;
+    
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+}
+.contenedor{
+    padding: 25px 20px 0 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.inicio{
+    background: #ffb000;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+}
+
+.principal__nombre-nombre{
+    font-size: 60px;
+    font-weight: 700;
+    
+}
+.principal__texto-texto{
+    font-size: 18px;
+    font-weight: 500;
+}
+.letra-especial :nth-child(2n){
+    font-size: 24px;
+}
+.color-especial{
+    color: rgb(255, 0, 0);
+    font-weight: 700 !important;
+    font-size: 24px;
+}
+.caja__contacto{
+    display: flex;
+    justify-content: center;
+}
+.caja__contacto-boton{
+    color: #ffffff;
+    background: #150035;
+    width: 200px;
+    text-align: center;
+    padding: 10px 3px;
+    border-radius: 30px;
+}
+.principal__imagen{
+    max-width: 460px;
+    min-width: 286px;
+    margin: 0 auto;
+    text-align: center;
+}
+.principal__imagen-imagen{
+    width: 100%;
+}
+.principal__imagen-iconos{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 34px auto 0px;
+    padding-bottom: 35px;
+}
+.principal__imagen-iconos > a > i{
+    font-size: 50px;
+    color: #000000a4;
+}
+/*----------------------------------------------------
+--------------------------------------------PORTAFOLIO
+------------------------------------------------------
+*/
+.portafolio{
+    
+    
+}
+.portafolio__titulo-circulo{
+    width: 30px;
+    height: 30px;
+    display: block;
+    background: #ffb000;
+    border-radius: 50%;
+}
+.portafolio__titulo-sombra{
+    font-size: 40px;
+    color: #493369;
+    
+}
+.portafolio__titulo-titulo{
+    font-size: 43px;
+    color: #ffffff;
+    margin: -47px 0 0 16px;
+}
+
+.cuadro{
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 13px;
+}
+.cuadro__opciones{
+    padding: 9px 0px;
+    margin: 5px 2px;
+    width: 138px;
+    cursor: pointer;
+    text-align: center;
+}
+.activo{
+    background: #ffb000;
+}
+.cuadro__opciones-parrafo{
+    font-size: 16px;
+}
+/*---------------------------
+-----------------------------PROYECTOS
+-----------------------------*/
+.proyectos{
+    margin-top: 25px;
+}
+.tarjetas{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card{
+    max-width: 380px;
+    margin: 0 0 30px 0;
+    background: #ffffff;
+    
+}
+
+
+
+
+.card__img{
+    
+}
+.card__img img{
+    width: 100%;
+}
+.card__info{
+    padding: 15px;
+}
+.card__info-sobreque{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    margin-bottom: 8px;
+}
+.card__info-sobreque > .servicios{
+    color: #7c7c7c;
+}
+.card__info-sobreque > .nuevo{
+    padding: 4px 14px;
+    background: #ffae0041;
+    border-radius: 8px;
+    color: #ffb000;
+}
+.card__info-info > .titulo{
+    font-size: 22px;
+    margin-bottom: 8px;
+    color: #000000d3;
+}
+.card__info-info > .texto{
+    font-size: 15px;
+    color: #000000a9;
+    
+}
+/*
+------------------------------------MISION
+*/
+.mision{
+    background: #ffffff;
+    border-radius: 60px;
+}
+.mision__titulo{
+    margin-bottom: 25px;
+}
+.mision__titulo-sombra{
+    font-size: 40px;
+    color: #0000002d;
+}
+.mision__titulo-titulo{
+    font-size: 43px;
+    margin: -47px 0 0 16px;
+}
+.mision__parrafo{
+    margin-bottom: 40px;
+
+}
+.mision__parrafo-parrafo{
+    margin-bottom: 30px;
+}
+.mision__img{
+    margin-bottom: 30px;
+    max-width: 508px;
+    margin: 0 auto;
+    min-width: 311px;
+}
+.mision__img > img{
+    width: 100%;
+    object-fit: cover;
+}
+.mision__abajo{
+    text-align: center;
+    padding-bottom: 40px;
+}
+.mision__abajo > h1 {
+    
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+.mision__abajo > a{
+    padding: 10px;
+    background: #ffb000;
+    width: 200px;
+    border-radius: 20px;
+    font-size: 15px;
+    
+    color: black;
+    font-weight: 600;
+}
+/*
+-----------------------------------
+-----------------------------------Footer
+*/
+
+
+
+
+
+
+
+
+
+
+/*
+-----------------------------------------
+-------------------------------------------
+                                MODO RESPONSIVEEE
+--------------------------------------------
+------------------------------------------
+*/
+@media (min-width: 650px) {
+    .card{
+        margin: 0 12px 30px 12px;
+    }
+    .principal__texto{
+        margin-top: 12px;
+    }
+    .principal__texto-texto {
+        font-size: 25px;
+        font-weight: 500;
+    }
+    .principal__nombre-nombre {
+        font-size: 75px;
+        font-weight: 600;
+    }
+    .caja__principal{
+        
+        display: flex;
+        justify-content: space-between;
+        padding-top: 35px;
+    }
+    .principal__imagen{
+        margin: 51px 0 0 0;
+    }
+    .margenIzquierdo{
+        margin-left: 80px;
+    }
+    .margen{
+        margin-left: 20px;
+        margin-top: 23px;
+    }
+    .mision__parrafo{
+        font-size: 19px;
+    }
+}
+/*
+========================MODO IPAD
+*/
+@media (min-width: 768px) {
+    
+    .principal{
+        padding-top: 60px;
+
+    }
+    
+    
+    
+    
+    .portafolio__titulo-sombra{
+        font-size: 55px;
+    }
+    .portafolio__titulo-titulo{
+        font-size: 70px;
+        margin: -68px 0 0 26px;
+    }
+    .mision__info{
+        padding: 46px 23px;
+    }
+
+
+    
+
+    .mision__titulo-sombra{
+        font-size: 55px;
+    }
+    .mision__titulo-titulo{
+        font-size: 70px;
+        margin: -64px 0 0 26px;
+    }
+    .misionCaja{
+        display: flex;
+    }
+    .mision__parrafo{
+        width: 50%;
+    }
+    .mision__abajo{
+        padding-bottom: 11px;
+    }
+    .mision__img{
+        min-width: 428px;
+    }
+    .mision__img > img{
+        margin-top: 15px;
+    }
+    
+}
+@media (min-width: 950px) {
+    .mision__img > img{
+        margin-top: -18px;
+    }
+}
+/*
+---------------------IPAD PRO
+*/
+@media (min-width: 1024px) {
+    .contenedor{
+       padding: 25px 45px 0 45px;
+    }
+    .principal__texto {
+        margin-top: 0px;
+    }
+    
+    
+}
+
+
+@media (min-width: 1080px) {
+    .mision__img{
+        min-width: 500px;
+    }
+    .mision__img > img{
+        margin-top: -112px;
+    }
+    .principal__imagen{
+        margin-right: 44px;
+    }
+    .principal__imagen{
+        max-width: 505px;
+    }
+    .principal__imagen{
+        margin-top: 20px;
+    }
+    .mision__info {
+        padding: 56px 0px;
+    }
+    
+    .mision__parrafo-parrafo{
+        margin-bottom: 50px;
+    }
+    .mision__titulo-titulo {
+        font-size: 79px;
+        margin: -74px 0 0 26px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+

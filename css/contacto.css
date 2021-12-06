@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import "menu.css";
+@import "general.css";
+@import "footer.css";
+
+body{
+    background: #150035;
+}
+
+.contacto{
+    background: #e5e7eb;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+}
+.contenedor{
+    padding: 32px 20px 20px 20px;
+}
+.contacto__superior-bola{
+    width: 30px;
+    height: 30px;
+    background: #ffb000;
+    border-radius: 50%;
+    display: block;
+}
+.contacto__info-titulo{
+    font-size: 55px;
+    color: #150035;
+}
+.contacto__parrafos{
+    
+}
+.contacto__parrafos-subtitulo{
+    font-size: 35px;
+    text-align: center;
+}
+.contacto__parrafos-texto{
+    font-size: 23px;
+}
+.negrita{
+    font-weight: 600;
+}
+.contacto__inferior{
+    background: #ffffff;
+    padding: 40px 30px;
+    
+}
+.centrado{
+    text-align: center;
+}
+.contacto__inferior-titulo{
+    font-size: 35px;
+    color: #0a0a0aa6;
+}
+.contacto__inferior-texto{
+    color: #0a0a0a85;
+}
+.colorParrafo{
+    color: #0a0a0ac2;
+}
+.formulario__celda-celda{
+    width: 100%;
+    padding: 8px;
+    margin-top: 7px;
+    border: 2px solid #a8a8a888;
+}
+
+
+
+@media (min-width: 680px) {
+    .contacto{
+        display: flex;
+        justify-content: space-between;
+    }
+    .contacto__superior{
+        margin-top: 40px;
+    }
+    .contacto__inferior{
+        margin-top: 60px;
+    }
+    .contenedor{
+        padding: 32px 40px 20px 40px;
+    }
+    .contacto__parrafos-subtitulo{
+        text-align: start;
+    }
+    .contacto__parrafos-texto{
+        text-align: start;
+        max-width: 500px;
+    }
+}

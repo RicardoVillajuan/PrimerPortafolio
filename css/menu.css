@@ -1,0 +1,79 @@
+.principal__boton{
+    position: fixed;
+    display: flex;
+    width: 93%;
+    justify-content: flex-end;
+    padding-top: 29px;
+
+}
+.boton__hamburguesa{
+    background: #ffffff !important;
+    border-radius: 50%;
+    height: 56px;
+    width: 60px;
+    align-items: center;
+    display: flex;
+    
+}
+.boton__hamburguesa:hover{
+    opacity: 1 !important;
+}
+.principal__menu{
+    width: 90%;
+    position: fixed;
+    top: 100px;
+    justify-content: flex-end;
+    display: none;
+}
+.principal__menu-enlaces{
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+    width: 200px;
+    border-radius: 6px;
+}
+.enlaces{
+    padding: 12px;
+    color: black;
+    
+}
+.mostrar{
+    display: flex;
+}
+@media (min-width: 768px) {
+
+    .principal__boton{
+        display: none;
+    }
+    .principal__menu{
+        
+        display: flex;
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 100%;
+        padding: 8px 32px 8px 0px;
+        transition: 0.7s;
+        
+    }
+    .principal__menu-enlaces{
+        flex-direction: row;
+        width: 490px;
+        justify-content: space-between;
+        border-radius: 0;
+        background: none;
+    }
+    .principal__menu-enlaces > .enlaces{
+        font-size: 17px;
+        font-weight: 500;
+    }
+    .abajo{
+        background: #ffffff;
+    }
+
+}
+
+
+
+
+
